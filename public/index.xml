@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>میلاد حاجی حسنلو</title>
-    <link>hasanlo.com/</link>
+    <link>/</link>
     <description>Recent content on میلاد حاجی حسنلو</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 25 May 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="hasanlo.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>شروع</title>
-      <link>hasanlo.com/posts/goisforlovers/</link>
+      <link>/posts/goisforlovers/</link>
       <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>hasanlo.com/posts/goisforlovers/</guid>
+      <guid>/posts/goisforlovers/</guid>
       <description>شروع به وبلاگ نویسی</description>
     </item>
     

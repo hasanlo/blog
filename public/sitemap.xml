@@ -3,33 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>hasanlo.com/posts/goisforlovers/</loc>
+    <loc>/posts/goisforlovers/</loc>
     <lastmod>2018-05-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>hasanlo.com/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2015-06-20T14:02:37+02:00</lastmod>
   </url>
   
   <url>
-    <loc>hasanlo.com/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>hasanlo.com/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2018-05-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>hasanlo.com/tags/</loc>
+    <loc>/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>hasanlo.com/</loc>
+    <loc>/</loc>
     <lastmod>2018-05-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
