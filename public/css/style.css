@@ -547,6 +547,10 @@ Post List
     margin-top: 100px;
 }
 
+#footer *{
+    direction: ltr;
+}
+
 
 /* Post Page */
 

@@ -4,12 +4,10 @@ title = "About"
 hidden = true
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ullam earum dolorum! Sed, perspiciatis.
+سلام٫ من میلاد حاجی حسنلو هستم و الان ۲۷ سال تجربه زندگی کردن دارم.
+از نوجوانی تا امروز عاشقانه در حال برنامه نویسی هستم.
+علاقه بسیار زیادی به زبان جاوا دارم و روز های فوق العاده قشنگی رو کنارش گذرونده ام
+و در حال حاضر در شرکت فناپ پرداخت مشغول فعالیت ام. 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-
+همیشه تلاش کردم که اگه نتونستم دنیا را به جای بهتری تبدیل کنم حداقل بدتر اش نکنم :)
 ***
-
-### Lorem ipsum dolor.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea dicta corporis ad inventore itaque impedit dolor atque amet exercitationem! Veniam qui voluptas maiores vel laudantium necessitatibus, velit ducimus! Iste hic facere, accusamus fugiat enim facilis.

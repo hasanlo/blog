@@ -18,8 +18,8 @@ hasCJKLanguage = false
 	enableRSS = true
 	enableToc = true
 
-	enableDisqus = true
-	disqusShortname = "your_disqus_short_name"
+	enableDisqus = false
+	disqusShortname = ""
 
 
 	enableSummary = true
@@ -61,7 +61,7 @@ hasCJKLanguage = false
 	# Share
 	enableShare = true
 	tweet = ""
-	share = ""
+	share = " "
 
 	# 404 page
 	title404 = "صفحه مورد نظر وجود ندارد"
