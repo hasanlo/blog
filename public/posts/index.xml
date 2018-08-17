@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on میلاد حاجی حسنلو</title>
-    <link>http://hasanlo.com/blog/public/posts/</link>
+    <link>/blog/public/posts/</link>
     <description>Recent content in Posts on میلاد حاجی حسنلو</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 29 Jun 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://hasanlo.com/blog/public/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/blog/public/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title> تجربه من از HUGO</title>
-      <link>http://hasanlo.com/blog/public/posts/hugo/</link>
+      <link>/blog/public/posts/hugo/</link>
       <pubDate>Fri, 29 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://hasanlo.com/blog/public/posts/hugo/</guid>
+      <guid>/blog/public/posts/hugo/</guid>
       <description>چند وقتی بود که دلم برای وبلاگ نویسی تنگ شده بود و دلم می خواست شروع کنم. یکی از موانعی که برای شروع کردن داشتم این بود که اصلا نمی خواستم به سراغ وبلاگ های آماده مثل بلاگفا برم و می خواستم که خودم ست آپ اش کنم. از طرفی علاقه ای به استفاده CMS ها مثل wordpress نداشتم. بدنبال راه حل بودم که با HUGO آشنا شدم.
 هوگو یک static website generator که با اون می توانیم خیلی ساده وبسایت و وبلاگ خودمون رو درست کنیم و هوگو به من کمک کرد تا بتونم ظرف چند دقیقه یک وبلاگ کامل رو داشته باشم.</description>
     </item>
     
     <item>
       <title>شروع</title>
-      <link>http://hasanlo.com/blog/public/posts/init/</link>
+      <link>/blog/public/posts/init/</link>
       <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://hasanlo.com/blog/public/posts/init/</guid>
+      <guid>/blog/public/posts/init/</guid>
       <description>شروع به وبلاگ نویسی</description>
     </item>
     
