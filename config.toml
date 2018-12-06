@@ -3,13 +3,13 @@ baseurl = "/blog/public/"
 languageCode = "en"
 title = "میلاد حاجی حسنلو"
 #theme = "hugo-theme-cactus-plus"
-googleAnalytics = "your_google_analytics_id"
+googleAnalytics = "UA-130561646-1"
 # Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
 hasCJKLanguage = false
 
 [params]
 	author = "میلاد حاجی حسنلو"
-	description = "وبلاگ شخصی من"
+	description = "تجربیات من"
 	bio = "برنامه نویس"
 
 	twitter = "HasanloMilad"
