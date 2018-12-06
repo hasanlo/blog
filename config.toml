@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "/blog/public/"
+baseurl = "https://hasanlo.com/blog/public/"
 languageCode = "en"
 title = "میلاد حاجی حسنلو"
 #theme = "hugo-theme-cactus-plus"

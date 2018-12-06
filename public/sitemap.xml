@@ -3,38 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/blog/public/posts/hugo/</loc>
+    <loc>https://hasanlo.com/blog/public/posts/hugo/</loc>
     <lastmod>2018-06-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/public/posts/init/</loc>
+    <loc>https://hasanlo.com/blog/public/posts/init/</loc>
     <lastmod>2018-05-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/public/about/</loc>
+    <loc>https://hasanlo.com/blog/public/about/</loc>
     <lastmod>2015-06-20T14:02:37+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/public/categories/</loc>
+    <loc>https://hasanlo.com/blog/public/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/blog/public/posts/</loc>
+    <loc>https://hasanlo.com/blog/public/posts/</loc>
     <lastmod>2018-06-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/blog/public/tags/</loc>
+    <loc>https://hasanlo.com/blog/public/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/blog/public/</loc>
+    <loc>https://hasanlo.com/blog/public/</loc>
     <lastmod>2018-06-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
