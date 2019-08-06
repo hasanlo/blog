@@ -11,29 +11,11 @@
     
     
     <item>
-      <title>Development</title>
-      <link>https://hasanlo.com/blog/public/categories/development/</link>
-      <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://hasanlo.com/blog/public/categories/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Java</title>
       <link>https://hasanlo.com/blog/public/categories/java/</link>
       <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://hasanlo.com/blog/public/categories/java/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Spring Boot</title>
-      <link>https://hasanlo.com/blog/public/categories/spring-boot/</link>
-      <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://hasanlo.com/blog/public/categories/spring-boot/</guid>
       <description></description>
     </item>
     
