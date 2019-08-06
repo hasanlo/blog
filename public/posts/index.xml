@@ -5,11 +5,22 @@
     <link>https://hasanlo.com/blog/public/posts/</link>
     <description>Recent content in Posts on میلاد حاجی حسنلو</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Fri, 29 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <language>fa</language>
+    <lastBuildDate>Tue, 06 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://hasanlo.com/blog/public/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>با نسخه ۱ اسپرینگ بوت خداحافظی کنید</title>
+      <link>https://hasanlo.com/blog/public/posts/godbyespringboot1/</link>
+      <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hasanlo.com/blog/public/posts/godbyespringboot1/</guid>
+      <description>امروز ۶ اگوست ۲۰۱۹ آخرین نسخه از spring boot 1.x یعنی نسخه 1.5.22 منتشر شد و دیگه پشتیبانی نمی شود. اگه تا به امروز به نسخه ۲ اسپرینگ بوت سوییچ نکردین بهتره که عجله کنید.
+قبل از تغییر به نسخه دوم پیشنهاد می کنم به نکات زیر توجه کنید:
+ نسخه دوم از حداقل جاوا ۸ استفاده می کند و از جاوای ۹ پشتیبانی می کنه connection pool از تامکت به هیکاری تغییر کرده Oauth2 به Spring Security اضافه شده و دیگه نیازی به پیاده سازی جداگانه وجود نداره در گذشته Actuator از مکانیسم جداگانه ای برای امنیت استفاده می کرد که در این نسخه با spring security یکپارچه شده نام و نحوه عملکرد متد های CrudRepository تغییر کرده حالت پیشفرض تبدیل تاریخ در jackson به استاندارد ۸۶۰۱ تغییر کرده  در صورت نیاز به راهنمایی برای مهاجرت به نسخه دوم می تونید از راهنمای رسمی این کار استفاده کنید</description>
+    </item>
     
     <item>
       <title> تجربه من از HUGO</title>

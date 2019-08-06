@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>میلاد حاجی حسنلو</title>
-    <link>https://hasanlo.com/blog/public/</link>
-    <description>Recent content on میلاد حاجی حسنلو</description>
+    <title>Development on میلاد حاجی حسنلو</title>
+    <link>https://hasanlo.com/blog/public/categories/development/</link>
+    <description>Recent content in Development on میلاد حاجی حسنلو</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fa</language>
     <lastBuildDate>Tue, 06 Aug 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://hasanlo.com/blog/public/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hasanlo.com/blog/public/categories/development/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,25 +20,6 @@
       <description>امروز ۶ اگوست ۲۰۱۹ آخرین نسخه از spring boot 1.x یعنی نسخه 1.5.22 منتشر شد و دیگه پشتیبانی نمی شود. اگه تا به امروز به نسخه ۲ اسپرینگ بوت سوییچ نکردین بهتره که عجله کنید.
 قبل از تغییر به نسخه دوم پیشنهاد می کنم به نکات زیر توجه کنید:
  نسخه دوم از حداقل جاوا ۸ استفاده می کند و از جاوای ۹ پشتیبانی می کنه connection pool از تامکت به هیکاری تغییر کرده Oauth2 به Spring Security اضافه شده و دیگه نیازی به پیاده سازی جداگانه وجود نداره در گذشته Actuator از مکانیسم جداگانه ای برای امنیت استفاده می کرد که در این نسخه با spring security یکپارچه شده نام و نحوه عملکرد متد های CrudRepository تغییر کرده حالت پیشفرض تبدیل تاریخ در jackson به استاندارد ۸۶۰۱ تغییر کرده  در صورت نیاز به راهنمایی برای مهاجرت به نسخه دوم می تونید از راهنمای رسمی این کار استفاده کنید</description>
-    </item>
-    
-    <item>
-      <title> تجربه من از HUGO</title>
-      <link>https://hasanlo.com/blog/public/posts/hugo/</link>
-      <pubDate>Fri, 29 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://hasanlo.com/blog/public/posts/hugo/</guid>
-      <description>چند وقتی بود که دلم برای وبلاگ نویسی تنگ شده بود و دلم می خواست شروع کنم. یکی از موانعی که برای شروع کردن داشتم این بود که اصلا نمی خواستم به سراغ وبلاگ های آماده مثل بلاگفا برم و می خواستم که خودم ست آپ اش کنم. از طرفی علاقه ای به استفاده CMS ها مثل wordpress نداشتم. بدنبال راه حل بودم که با HUGO آشنا شدم.
-هوگو یک static website generator که با اون می توانیم خیلی ساده وبسایت و وبلاگ خودمون رو درست کنیم و هوگو به من کمک کرد تا بتونم ظرف چند دقیقه یک وبلاگ کامل رو داشته باشم.</description>
-    </item>
-    
-    <item>
-      <title>شروع</title>
-      <link>https://hasanlo.com/blog/public/posts/init/</link>
-      <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://hasanlo.com/blog/public/posts/init/</guid>
-      <description>شروع به وبلاگ نویسی</description>
     </item>
     
   </channel>

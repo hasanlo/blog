@@ -1,6 +1,6 @@
 # Site settings
 baseurl = "https://hasanlo.com/blog/public/"
-languageCode = "en"
+languageCode = "fa"
 title = "میلاد حاجی حسنلو"
 #theme = "hugo-theme-cactus-plus"
 googleAnalytics = "UA-130561646-1"
@@ -22,7 +22,7 @@ hasCJKLanguage = false
 	disqusShortname = ""
 
 
-	enableSummary = true
+	enableSummary = false
 	# Set the value to true if use description in post front matter replace content summary
 	useDescriptionReplaceSummary = false
 
