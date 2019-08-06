@@ -5,10 +5,11 @@ date="2019-08-06"
 menu="main"
 tags = [
     "spring boot",
-    "development",
     "java"
 ]
 categories = [
+    "spring boot",
+    "development",
     "java"
 ]
 +++

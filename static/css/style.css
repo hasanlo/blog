@@ -375,11 +375,17 @@ em, i {
     font: normal 13px/1.5em IRANS,"Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: -5px 0 40px 0;
     color: #b2b9be;
-    font-size: 13px;
+    font-size: 12px;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     margin-top: 5px;
     display: block;
+}
+
+.post h2.headline .tags a:hover {
+    text-decoration: underline #b2b9be;
+    text-shadow:0px 1px 1px #4f8ab4;
+    cursor: pointer;
 }
 
 #post-list h2 {
@@ -950,6 +956,7 @@ a.symbol:hover {
 }
 .page-tags ul li a span {
     font-size: .9em;
+    float:left;
 }
 .page-tags ul li a:hover {
     color: #5694f1;
