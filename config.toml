@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://hasanlo.com/blog/public/"
 languageCode = "fa"
-title = "میلاد حاجی حسنلو"
+title = "نوشته‌های میلاد حسنلو"
 #theme = "hugo-theme-cactus-plus"
 googleAnalytics = "UA-130561646-1"
 # Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
