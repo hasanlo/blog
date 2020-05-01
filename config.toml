@@ -10,7 +10,7 @@ hasCJKLanguage = false
 [params]
 	author = "میلاد حاجی حسنلو"
 	description = "تجربیات من"
-	bio = "برنامه نویس"
+	bio = "توسعه دهنده‌ی نرم افزار"
 
 	twitter = "HasanloMilad"
 	facebook = "milad-hasanlo"
@@ -44,7 +44,7 @@ hasCJKLanguage = false
 	# translate or customize each string of the theme.
 
 	# Navigation links
-	home = "خانه"
+	home = " بازگشت "
 	about = "درباره من"
 	archive = "آرشیو"
 	subscribe = "rss"
@@ -75,6 +75,8 @@ hasCJKLanguage = false
 
 # Add additional social link entries underneath
 [social]
-	twitter-square = "https://twitter.com/HasanloMilad"
-	github-square = "https://www.github.com/hasanlo"
-	linkedin-square = "https://ir.linkedin.com/in/milad-hasanlo"
+	twitter = "https://twitter.com/HasanloMilad"
+	github = "https://www.github.com/hasanlo"
+	linkedin = "https://ir.linkedin.com/in/milad-hasanlo"
+	youtube = "https://www.youtube.com/c/miladhasanlo"
+	instagram = "https://www.instagram.com/milad.hasanlo"

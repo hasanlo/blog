@@ -34,13 +34,13 @@
   </url>
   
   <url>
-    <loc>https://hasanlo.com/blog/public/categories/java/</loc>
+    <loc>https://hasanlo.com/blog/public/tags/java/</loc>
     <lastmod>2019-08-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://hasanlo.com/blog/public/tags/java/</loc>
+    <loc>https://hasanlo.com/blog/public/categories/java/</loc>
     <lastmod>2019-08-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -52,13 +52,13 @@
   </url>
   
   <url>
-    <loc>https://hasanlo.com/blog/public/categories/spring-boot/</loc>
+    <loc>https://hasanlo.com/blog/public/tags/spring-boot/</loc>
     <lastmod>2019-08-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://hasanlo.com/blog/public/tags/spring-boot/</loc>
+    <loc>https://hasanlo.com/blog/public/categories/spring-boot/</loc>
     <lastmod>2019-08-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
