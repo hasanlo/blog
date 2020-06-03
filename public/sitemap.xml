@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://hasanlo.com/blog/public/posts/nextnuxtnestjs/</loc>
+    <lastmod>2020-06-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hasanlo.com/blog/public/posts/godbyespringboot1/</loc>
     <lastmod>2019-08-06T00:00:00+00:00</lastmod>
   </url>
@@ -46,8 +51,26 @@
   </url>
   
   <url>
+    <loc>https://hasanlo.com/blog/public/tags/js/</loc>
+    <lastmod>2020-06-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hasanlo.com/blog/public/tags/node/</loc>
+    <lastmod>2020-06-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://hasanlo.com/blog/public/posts/</loc>
-    <lastmod>2019-08-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hasanlo.com/blog/public/tags/react/</loc>
+    <lastmod>2020-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -71,7 +94,7 @@
   
   <url>
     <loc>https://hasanlo.com/blog/public/</loc>
-    <lastmod>2019-08-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fa" >
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	
+  
+    <meta name="twitter:card" content="summary"/>
+    
+      <meta name="twitter:image" content="https://hasanlo.com/blog/public/images/me.jpeg" />
+    
+  
+  
+  <meta name="twitter:title" content="تفاوت Next.js , Nuxt.js و Nest.js."/>
+  <meta name="twitter:description" content="در دنیای جاوااسکریپت سه فریم ورک با نام های مشابه وجود دارند که نه تنها در نام بلکه در عملکرد هم دارای شباهت های زیادی هستند و بارها باعث شدن گیج بشم .در این پست می خواهم به تفاوت سه فریم ورک Next.js , Nuxt.js و Nest.js بپردازم و در آینده هر موقع که نیاز پیدا کردم به این پست مراجعه کنم و امیدوارم شما هم از این مطلب استفاده کنید."/>
+  
+    <meta name="twitter:site" content="@HasanloMilad"/>
+  
+  
+  
+  
+    <meta name="twitter:creator" content="@میلاد حاجی حسنلو"/>
+  
+
+
+
+	
+	
+	<meta name="author" content="میلاد حاجی حسنلو">
+	
+	<meta name="description" content="تجربیات من">
+	<meta name="generator" content="Hugo 0.40.3" />
+	<title>تفاوت Next.js , Nuxt.js و Nest.js. &middot; نوشته‌های میلاد حسنلو</title>
+	<link rel="shortcut icon" href="https://hasanlo.com/blog/public/images/favicon.png">
+	<link rel="stylesheet" href="https://hasanlo.com/blog/public/css/style.css">
+	<link rel="stylesheet" href="https://hasanlo.com/blog/public/css/highlight.css">
+
+	
+	<link rel="stylesheet" href="https://hasanlo.com/blog/public/css/font-awesome.min.css">
+	
+
+	
+	<link href="https://hasanlo.com/blog/public/index.xml" rel="alternate" type="application/rss+xml" title="نوشته‌های میلاد حسنلو" />
+	
+
+	
+</head>
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='https://hasanlo.com/blog/public/'> <span class="arrow">←</span> بازگشت </a>
+	
+	<a href='https://hasanlo.com/blog/public/posts'>آرشیو</a>
+	<a href='https://hasanlo.com/blog/public/tags'>برچسب</a>
+	<a href='https://hasanlo.com/blog/public/about'>درباره من</a>
+
+	
+
+	
+	<a class="cta" href="https://hasanlo.com/blog/public/index.xml">rss</a>
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        تفاوت Next.js , Nuxt.js و Nest.js.
+                    </h1>
+                    <h2 class="headline">
+                    Jun 3, 2020
+                    · 551 words
+                    · 3 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              <span>-</span><a href="https://hasanlo.com/blog/public/tags/react">react</a>
+                          
+                              <span>-</span><a href="https://hasanlo.com/blog/public/tags/node">node</a>
+                          
+                              <span>-</span><a href="https://hasanlo.com/blog/public/tags/js">js</a>
+                          
+                      <span>-</span>
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                  
+                
+                <section id="post-body">
+                    <p>در دنیای جاوااسکریپت سه فریم ورک با نام های مشابه وجود دارند که نه تنها در نام بلکه در عملکرد هم دارای شباهت های زیادی هستند و بارها باعث شدن گیج بشم .در این پست می خواهم به تفاوت سه فریم ورک Next.js , Nuxt.js و Nest.js بپردازم و در آینده هر موقع که نیاز پیدا کردم به این پست مراجعه کنم و امیدوارم شما هم از این مطلب استفاده کنید.</p>
+
+<p>قبل از اینکه تفاوت این فریم ورک ها رو توضیح بدم چند تا مفهوم هست که بهتره مرورشون کنیم:</p>
+
+<p>کتابخانه هایی مثل angular ،react و vue سمت کلاینت اجرا می شوند. یعنی وقتی که یک درخواست توسط مرورگر سمت سرور ارسال می شود مرورگر فایل های جاوااسکریپت رو دانلود می کند و سپس در مرورگر کلاینت درخواست را پردازش و نمایش می دهد و بقیه درخواست ها در مرورگر اتفاق می افتد.
+به این روش اجرا میگن client-side rendered (CSR)</p>
+
+<p>وقتی داریم از CSR استفاده می کنیم تا وقتی که فایل های جاوا اسکریپت کامل دانلود نشده کاربر صفحه سفید و یا لودینگ رو مشاهده می کنه. همچنین خیلی از موتورهای جستجو در فهرست(index) کردن صفحات CSR مشکلاتی دارند. هر چند که راه هایی برای بهتر شدن فهرست صفحات CSR ارائه شدن ولی مشکل کاملا حل نشده.</p>
+
+<p>برای حل این مشکلات از server-side rendered (SSR) استفاده می شود. در این روش سرور html پردازش شده را سمت مرورگر میفرسته و به صورت همزمان مرورگر فایل های جاوااسکریپت رو دانلود می کنه و بقیه درخواست ها در مرورگر اتفاق می افتد.</p>
+
+<p><img src="/blog/public/static/images/post/CSRvsSSR.png" alt="CSRvsSSR" /></p>
+
+<p>برای اینکه عملکرد یک سایت رو ارزیابی کنند معیارهای زیادی وجود داره و یکی از مهمترین معیارها مدت زمانی است که یک صفحه در مرورگر کاربر قابل مشاهده است. در این معیار و برخی دیگر استفاده از SSR عملکرد بهتری دارد و ترجیح داده می شود (فرض می کنیم که صفحات ایستا (static) نیستند)</p>
+
+<p>فریم ورک های Next و Nuxt هر دو در ابتدا صفحات را در سرور پردازش کرده و بارگذاری می نمایند(از SSR استفاده می شود). پس از بارگذاری اولیه درخواست ها سمت مرورگر انجام میشود(CSR). با این روش از بهترین های هر دو روش استفاده می شود. به این روش universal rendering گفته می شود.</p>
+
+<p>از Next برای ساخت اپلیکیشن های universal rendering با استفاده از react استفاده می شود. Next تمام پیکربندی ها و تنظیمات پردازش react رو مدیریت می کند. راه اندازی web pack را هم Next انجام می دهد.
+Nuxt همان کاری که Next.js می کند را انجام می دهد با این تفاوت که از Nuxt برای صفحات Vue استفاده می شود و برای ساخت وب های universal rendering استفاده می شود.</p>
+
+<p>در بین این سه فریم ورک Nest با بقیه کاملا متفاوت است. Nest فریم ورکی سمت سرور برای ساخت node.js است و اهمیتی ندارد از چه فریم ورکی در سمت کلاینت استفاده شده است و فقط برای ساخت صفحات universal rendering استفاده نمی شود.</p>
+
+<p>Nest از جاوا اسکریپت و تایپ اسکریپت پشیبانی می کنه و شامل یک سری annotations و استاندارد سازی در فولدر هاست و یک لایه انتزاعی(abstraction) در بالای فریم ورک های متداول node مانند Express قرار میگیره و تلاش می کنه تا برای توسعه برنامه های node یک معماری ارائه کنه.
+به عنوان یک توسعه دهنده جاوا شباهت زیادی دیدم بین کاری که Nest برای node می کنه و کاری که فریم ورک spring برای جاوا انجام می ده.</p>
+
+                </section>
+            </article>
+
+            
+                <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fhasanlo.com%2fblog%2fpublic%2fposts%2fnextnuxtnestjs%2f - %d8%aa%d9%81%d8%a7%d9%88%d8%aa%20Next.js%20%2c%20Nuxt.js%20%d9%88%20Nest.js. by @HasanloMilad"><span class="icon-twitter"> tweet</span></a>
+
+            
+
+            
+
+            
+
+            <footer id="footer">
+    
+    <div id="social">
+    
+
+    
+    <a class="symbol" href="https://www.github.com/hasanlo">
+        <i class="fa fa-github"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.instagram.com/milad.hasanlo">
+        <i class="fa fa-instagram"></i>
+    </a>
+    
+    <a class="symbol" href="https://ir.linkedin.com/in/milad-hasanlo">
+        <i class="fa fa-linkedin"></i>
+    </a>
+    
+    <a class="symbol" href="https://twitter.com/HasanloMilad">
+        <i class="fa fa-twitter"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.youtube.com/c/miladhasanlo">
+        <i class="fa fa-youtube"></i>
+    </a>
+    
+
+    
+</div>
+    
+    <p class="small">
+        
+        © Copyright 2020 <i class="fa fa-heart" aria-hidden="true"></i> میلاد حاجی حسنلو
+        
+    </p>
+    <p class="very-small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme inspire By <a
+            href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
+    </p>
+</footer>
+        </section>
+
+        <script src="https://hasanlo.com/blog/public/js/jquery-3.3.1.min.js"></script>
+<script src="https://hasanlo.com/blog/public/js/main.js"></script>
+<script src="https://hasanlo.com/blog/public/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-130561646-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+
+
+    </body>
+</html>

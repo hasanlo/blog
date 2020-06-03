@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Js on نوشته‌های میلاد حسنلو</title>
+    <link>https://hasanlo.com/blog/public/tags/js/</link>
+    <description>Recent content in Js on نوشته‌های میلاد حسنلو</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fa</language>
+    <lastBuildDate>Wed, 03 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hasanlo.com/blog/public/tags/js/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>تفاوت Next.js , Nuxt.js و Nest.js.</title>
+      <link>https://hasanlo.com/blog/public/posts/nextnuxtnestjs/</link>
+      <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hasanlo.com/blog/public/posts/nextnuxtnestjs/</guid>
+      <description>در دنیای جاوااسکریپت سه فریم ورک با نام های مشابه وجود دارند که نه تنها در نام بلکه در عملکرد هم دارای شباهت های زیادی هستند و بارها باعث شدن گیج بشم .در این پست می خواهم به تفاوت سه فریم ورک Next.js , Nuxt.js و Nest.js بپردازم و در آینده هر موقع که نیاز پیدا کردم به این پست مراجعه کنم و امیدوارم شما هم از این مطلب استفاده کنید.</description>
+    </item>
+    
+  </channel>
+</rss>
