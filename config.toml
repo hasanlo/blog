@@ -18,8 +18,8 @@ hasCJKLanguage = false
 	enableRSS = true
 	enableToc = true
 
-	enableDisqus = false
-	disqusShortname = ""
+	enableDisqus = true
+	disqusShortname = "@disqus_3DPa1rO5Ak"
 
 
 	enableSummary = false
