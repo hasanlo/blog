@@ -133,18 +133,23 @@ Nuxt همان کاری که Next.js می کند را انجام می دهد با
             
                 <div id="disqus_thread"></div>
 <script type="text/javascript">
-    var disqus_shortname = 'hasanlo-com'; 
-
-     
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    var disqus_shortname = 'hasanlo-com';
+    var disqus_config = function () {
+        this.page.url = 'https:\/\/hasanlo.com\/blog\/public\/posts\/nextnuxtnestjs\/';
+        this.page.identifier = 'https:\/\/hasanlo.com\/blog\/public\/posts\/nextnuxtnestjs\/';
+    };
+    (function () {
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+        dsq.setAttribute('data-timestamp', +new Date());
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+        Disqus.</a></noscript>
 </div>
-
             
 
             
@@ -188,6 +193,8 @@ Nuxt همان کاری که Next.js می کند را انجام می دهد با
         Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme inspire By <a
             href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
     </p>
+    <script id="dsq-count-scr" src="https://hasanlo-com.disqus.com/count.js" async></script>
+
 </footer>
         </section>
 
