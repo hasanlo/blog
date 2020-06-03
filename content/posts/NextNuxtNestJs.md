@@ -1,8 +1,8 @@
 +++
-title = "تفاوت Next.js , Nuxt.js و Nest.js."
+title = "تفاوت Next.js , Nuxt.js و Nest.js"
 description = ""
 tags = [
-    "react","node","js"
+    "react" ,"vue" , "node" , "js"
 ]
 date = "2020-06-03"
 categories = [
@@ -21,7 +21,7 @@ menu = "main"
 
 برای حل این مشکلات از server-side rendered (SSR) استفاده می شود. در این روش سرور html پردازش شده را سمت مرورگر میفرسته و به صورت همزمان مرورگر فایل های جاوااسکریپت رو دانلود می کنه و بقیه درخواست ها در مرورگر اتفاق می افتد.
 
-![CSRvsSSR](/blog/public/static/images/post/CSRvsSSR.png)
+![CSRvsSSR](/blog/public/images/post/CSRvsSSR.png)
 
 برای اینکه عملکرد یک سایت رو ارزیابی کنند معیارهای زیادی وجود داره و یکی از مهمترین معیارها مدت زمانی است که یک صفحه در مرورگر کاربر قابل مشاهده است. در این معیار و برخی دیگر استفاده از SSR عملکرد بهتری دارد و ترجیح داده می شود (فرض می کنیم که صفحات ایستا (static) نیستند)
 
